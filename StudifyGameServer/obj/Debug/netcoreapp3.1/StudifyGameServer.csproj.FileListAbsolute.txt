@@ -1,0 +1,13 @@
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\bin\Debug\netcoreapp3.1\StudifyGameServer.exe
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\bin\Debug\netcoreapp3.1\StudifyGameServer.deps.json
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\bin\Debug\netcoreapp3.1\StudifyGameServer.runtimeconfig.json
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\bin\Debug\netcoreapp3.1\StudifyGameServer.runtimeconfig.dev.json
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\bin\Debug\netcoreapp3.1\StudifyGameServer.dll
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\bin\Debug\netcoreapp3.1\StudifyGameServer.pdb
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\obj\Debug\netcoreapp3.1\StudifyGameServer.csprojAssemblyReference.cache
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\obj\Debug\netcoreapp3.1\StudifyGameServer.AssemblyInfoInputs.cache
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\obj\Debug\netcoreapp3.1\StudifyGameServer.AssemblyInfo.cs
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\obj\Debug\netcoreapp3.1\StudifyGameServer.csproj.CoreCompileInputs.cache
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\obj\Debug\netcoreapp3.1\StudifyGameServer.dll
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\obj\Debug\netcoreapp3.1\StudifyGameServer.pdb
+D:\User\Documents\Lecture Notes\Software Systems Analysis & Design\StudifyGameServer\StudifyGameServer\obj\Debug\netcoreapp3.1\StudifyGameServer.genruntimeconfig.cache
