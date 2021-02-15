@@ -80,6 +80,7 @@ namespace GameServer
         /// <param name="_msg">The message to send.</param>
         public static void Welcome(int _toClient, string _msg)
         {
+            Console.WriteLine($"ServerSend Welcome Msg for Client {_toClient}: {_msg}");
             using (Packet _packet = new Packet((int)ServerPackets.welcome))
             {
                 _packet.Write(_msg);
