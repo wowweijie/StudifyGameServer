@@ -193,7 +193,7 @@ namespace GameServer
 
         public void SendIntoGame(string _playerName)
         {
-            player = new Player(id, _playerName, new Vector3(0, 0, 0));
+            player = new Player(id, _playerName, new Vector3(x:-29.77f, y:20.56f, z:-32.74f));
 
             foreach (Client _client in Server.clients.Values)
             {
@@ -201,6 +201,7 @@ namespace GameServer
                 {
                     if (_client.id != id)
                     {
+                        Console.WriteLine($"Sending in Player {_client.player.id} into Client {id}");
                         ServerSend.SpawnPlayer(id, _client.player);
                     }
                 }
@@ -210,6 +211,7 @@ namespace GameServer
             {
                 if (_client.player != null)
                 {
+                    Console.WriteLine($"Sending in Player {player.id} into Client {_client.id}");
                     ServerSend.SpawnPlayer(_client.id, player);
                 }
             }
