@@ -89,9 +89,13 @@ namespace GameServer
                 _packet.Write(_player.username);
                 _packet.Write(_player.position);
                 _packet.Write(_player.rotation);
+                Console.WriteLine($"Sent Spawn Player Packet of player_id: {_player.id}, username: {_player.username}, " +
+                $"position: {_player.position}, rotation : {_player.rotation}");
 
                 SendTCPData(_toClient, _packet);
             }
+            
+
         }
 
         public static void PlayerPosition(Player _player)
@@ -100,9 +104,12 @@ namespace GameServer
             {
                 _packet.Write(_player.id);
                 _packet.Write(_player.position);
+                Console.WriteLine($"Sent Spawn Player Packet of player_id: {_player.id}" +
+                $"position: {_player.position}");
 
                 SendUDPDataToAll(_packet);
             }
+            
         }
 
         public static void PlayerRotation(Player _player)
@@ -111,6 +118,8 @@ namespace GameServer
             {
                 _packet.Write(_player.id);
                 _packet.Write(_player.rotation);
+                Console.WriteLine($"Sent Spawn Player Packet of player_id: {_player.id}" +
+                $"rotation: {_player.rotation}");
 
                 SendUDPDataToAll(_player.id, _packet);
             }
